@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nancysingh20_Gym_Website_Using_HTML_CSS_1722581087786-pr-trigger-input-set
+  identifier: Build_nancysingh20_Gym_Website_Using_HTML_CSS_1722581087786prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nancysingh20_Gym_Website_Using_HTML_CSS_1722581087786
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
